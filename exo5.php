@@ -9,6 +9,10 @@
 <?php
 $age = NULL;
 ?>
-<p>Voici un age vide : <?php $age ?> .</p>
+
+<p>Voici le type de ma variable âge : <?php gettype($age) ?> .</p>
+<p>Ci dessous ma variable devient mon âge véritablement vrai :</p>
+<?= $age = 23;?>
+
 </body>
 </html>
